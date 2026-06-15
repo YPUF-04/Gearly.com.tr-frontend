@@ -1,7 +1,7 @@
 // =============================================
 // CONFIG
 // =============================================
-const LSW_API = "https://backendsite-production-6bcb.up.railway.app";
+const LSW_API = "https://gearlycomtr-backend-production.up.railway.app";
 // =============================================
 // STATE
 // =============================================
@@ -1058,7 +1058,7 @@ window.selectSupportType = function(btn, val) {
 // =============================================
 // CANLI DESTEK WIDGET — E-posta Zorunlu
 // =============================================
-const LSW_API = "https://backendsite-production-6bcb.up.railway.app";
+const API = "https://backendsite-production-6bcb.up.railway.app";
 let lswOpen = false;
 let lswPollTimer = null;
 let lswLastAt = null;
