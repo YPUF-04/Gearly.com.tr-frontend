@@ -1,7 +1,7 @@
 // =============================================
 // CONFIG
 // =============================================
-const API = "https://gearlycomtr-backend-production.up.railway.app";
+const LSW_API = "https://backendsite-production-6bcb.up.railway.app";
 // =============================================
 // STATE
 // =============================================
