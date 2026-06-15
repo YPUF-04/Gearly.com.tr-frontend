@@ -250,10 +250,9 @@ function loadMoreGames() {
 }
 
 function gameCardHTML(g) {
-  const imgSrc = g.image
-    ? (g.image.startsWith("http") ? g.image : `${API}${g.image}`)
-    : null;
-
+ const imgSrc = g.image
+  ? (g.image.startsWith("http") ? g.image : `${API}/${g.image}`)
+  : null;
   const isPersonal = !g.accountType || g.accountType === "personal";
   const typeBadge  = isPersonal
     ? `<span class="gc-badge gc-badge-personal">🔒 Kişisel</span>`
