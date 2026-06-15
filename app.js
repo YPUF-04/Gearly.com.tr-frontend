@@ -1,7 +1,7 @@
 // =============================================
 // CONFIG
 // =============================================
-const API = "gearlycomtr-backend-production.up.railway.app";
+const API = "https://gearlycomtr-backend-production.up.railway.app";
 
 // =============================================
 // STATE
